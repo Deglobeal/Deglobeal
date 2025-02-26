@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deglobeal</title>
+    <!--<link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/main.js' %}" defer></script>
+</head>
+<body class="home" style="background-image:url('{% static 'images/page-background.jpg' %}');">
+    <!--the header section for the logo and search bar-->
+    <nav class = "header">
+        <div class="logo">
+            <h1 class="logo_style"><em>De</em><span>Globeal</span></h1>
+            <!--<p class="description"><i><em>HOME FOR UPDATES</em></i></p>-->
+        </div>
+            <!--<form action="">-->
+        <div class="search-bar">
+                    <input type="text" name="q" placeholder="Search...">
+                    <button type="submit">Search</button>
+        </div>
+            <!--</form>-->
+    </nav>
+    <!--this is the navigation section-->
+
+    <nav class = navi_bar>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/news">News</a></li>
+        <li><a href="/updates">Updates</a></li>
+        <li><a href="/cv_page">Cv_page</a></li>
+        <li><a href="/certificate">Certificates</a></li>
+        <li><a href="/about">About Us</a></li>
+        <li><a href="/social">Social Accounts</a></li>
+    </ul>
+    <div class="right_navi_bar">
+    <ol>
+        <li><a href="/email">Email Us</a></li>
+        <li><a href="/sign_up">Sign Up</a></li>
+        <li><a href="/login">Login</a></li>
+    </ol>
+    </div>
+    </nav>
+    <!--form for the login section-->
+        <div class="wrapper">
+            <div class="form_box">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                {% csrf_token %}
+                <div class="input-box">
+                    <span class="icon-fa"><i class="fa-solid fa-envelope"></i></span>
+                    <input type="email" name="email" placeholder="" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                <span class="icon-fa"><i class="fa-solid fa-key"></i></span>
+                    <input type="password" name="password" placeholder="" required>
+                    <label>Password</label>
+                </div>
+                <div class="forgot-remember">
+                    <label for="remember"><input type="checkbox" name="remember" id="remember">Remember me</label>
+                    <a href="/forget_detail" class="forget_detail"><span>Forgot Password?</span></a>
+                </div>
+                <div class="input-box">
+                    <button type="submit" class="btn">Login</button>
+                </div>
+                <div class="login-register">
+                    <p>Don't have an account? <a href="/sign_up" class="register-link">Sign Up</a></p>
+                </div>
+            </form>
+            </div>
+        </div>
+    <!--end of form section-->
+    <footer>
+        <div class="copyright">
+            &copy; 2015 My Blog. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
