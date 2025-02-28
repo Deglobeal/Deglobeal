@@ -30,4 +30,6 @@ urlpatterns = [
     path('email/', views.email),
     path('sign_up/', views.sign_up),
     path('login/', views.login),
+    path('index/', views.index),
+    
 ]

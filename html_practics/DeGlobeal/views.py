@@ -30,6 +30,9 @@ def sign_up(request):
 def login(request):
     return render(request, 'login.html')
 
+def index(request):
+    return render(request, 'index.html')
+
 def search(request):
     query = request.GET.get('q')
     results = []  # Replace with actual search logic

@@ -40,3 +40,8 @@ def sign_up(request):
 def login(request):
     # return HttpResponse("my about page, i am improving on django")
     return render(request, 'login.html')
+
+
+def index(request):
+    # return HttpResponse("my about page, i am improving on django")
+    return render(request, 'index.html')
