@@ -2,7 +2,6 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from todos import views
-from .views import TodoViewSet
 
 router = routers.DefaultRouter()
 router.register(r'todos', views.TodoViewSet)  # Creates CRUD endpoints at /api/todos/
