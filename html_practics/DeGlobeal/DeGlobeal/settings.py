@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'todolistapi',  # ✅ Ensure this matches the correct app name
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
