@@ -27,7 +27,7 @@ Video Conferencing API: Integrate Zoom/WebRTC for calls.
 ---
 
 Data & Analytics
-Analytics Dashboard API**: Track user activity and metrics.
+Analytics Dashboard API: Track user activity and metrics.
 Stock Market AP: Fetch real-time stock prices (Alpha Vantage).
 Weather Data AP: Pull forecasts from OpenWeatherMap.
 
