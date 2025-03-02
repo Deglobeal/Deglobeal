@@ -124,6 +124,15 @@
         </ul>
         </div>
     </div>
+
+    <div>
+        <h1>Welcome to the Home Page!</h1>
+        {% if user.is_authenticated %}
+            <p>You are logged in as <strong>{{ user.email }}</strong>.</p>
+        {% else %}
+            <p>You are not logged in.</p>
+        {% endif %}
+    </div>
     <!--this is ends the vertical navigation section-->
     <footer>
         <div class="copyright">

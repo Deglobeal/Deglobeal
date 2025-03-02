@@ -572,7 +572,7 @@ footer {
     }
 
     .navi_bar_vertical:hover {
-        width: 200px;
+        width: 150px;
     }
 
     .navi_bar_vertical_logo_container {
@@ -610,7 +610,7 @@ footer {
     }
 
     .navi_bar_vertical ul li a:hover {
-        width: 195px;
+        width: 150px;
     }
 
     .wrapper {
@@ -671,11 +671,11 @@ footer {
     }
 
     .navi_bar_vertical:hover {
-        width: 140px; 
+        width: 150px; 
     }
 
     .navi_bar_vertical ul li a:hover {
-        width: 120px !important; 
+        width: 150px !important; 
     }
     .navi_bar_vertical  {
         margin-left: -6px;
@@ -685,7 +685,7 @@ footer {
     }
 
     .navi_bar_vertical:hover {
-        width: 170px !important; 
+        width: 150px !important; 
     }
 
     /* Form positioning fixes */
@@ -841,15 +841,15 @@ footer {
 
     /* Vertical navigation */
     .navi_bar_vertical {
-        width: 30px !important; 
+        width: 35px !important; 
     }
 
     .navi_bar_vertical:hover {
-        width: 120px !important;
+        width: 150px !important;
     }
 
     .navi_bar_vertical ul li a:hover {
-        width: 110px !important;
+        width: 150px !important;
     }
     .navi_bar_vertical ul li a {
         padding: 6px 8px !important; 
@@ -918,6 +918,7 @@ footer {
     footer .copyright {
         font-size: 0.55rem !important;
         padding: 10px 0;
+        with: 100%;
     }
 }
 
@@ -938,7 +939,8 @@ footer {
 
     .logo {
         margin-left: 0.2rem !important;
-        font-size: clamp(0.5rem, 2vw, 0.7rem) !important; 
+        font-size: clamp(0.5rem, 2vw, 0.7rem) !important;
+        margin-left: 1rem !important; 
     }
 
     .logo span {
@@ -963,16 +965,16 @@ footer {
 
     /* Vertical Nav Micro-Adjustments */
     .navi_bar_vertical {
-        width: 28px !important; 
+        width: 40px !important; 
     }
 
     .navi_bar_vertical:hover {
-        width: 110px !important; 
+        width: 150px !important; 
     }
 
     .navi_bar_vertical ul li a {
         padding: 4px 6px !important; 
-        gap: 6px !important; 
+        gap: 8px !important; 
     }
 
     .navi_bar_vertical ul li a i {
@@ -1080,11 +1082,12 @@ footer {
 
 /* Mobile active state */
 .navi_bar_vertical.active {
-    width: 300px !important;
-    transition: all 1s ease-in-out;
+    width: 150px !important;
+    
 }
 
 /* Disable hover effects when active */
 .navi_bar_vertical.active:hover {
-    width: 300px !important;
+    width: 150px !important;
+    transition: all 1s ease-in-out;
 }

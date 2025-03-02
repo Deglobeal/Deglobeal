@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'todolistapi',  # ✅ Ensure this matches the correct app name
     'rest_framework',
+    'Users'
 ]
 
 MIDDLEWARE = [
@@ -129,3 +130,14 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# deglobeal/settings.py
+
+# DeGlobeal/settings.py
+AUTHENTICATION_BACKENDS = [
+    'Users.backends.EmailBackend',  # Correct module name
+    'django.contrib.auth.backends.ModelBackend',
+]
+
+APPEND_SLASH = False
