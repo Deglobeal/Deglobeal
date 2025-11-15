@@ -1,9 +1,5 @@
-<h1 align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2800&pause=1000&color=1DA1F2&center=true&vCenter=true&width=800&lines=Hello+World+👋;I'm+Gerard+Ugwu+Onyedikachi;Backend+Developer+🚀;Python+Enthusiast+🐍;ALX+ProDev+Learner+📚" alt="Typing SVG" /> </h1> <h3 align="center">🚀 Backend Developer | Python/Django Engineer | HNG Intern | ALX ProDev Learner</h3> <p align="center"> <img src="https://komarev.com/ghpvc/?username=gerardugwu&label=Profile%20views&color=0e75b6&style=flat" alt="gerardugwu" /> </p>
-<h3 align="center">🚀 Backend Developer | Python Enthusiast | ALX ProDev Learner</h3>
+<h1 align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2800&pause=1000&color=1DA1F2&center=true&vCenter=true&width=800&lines=Hello+World+👋;I'm+Gerard+Ugwu+Onyedikachi;Backend+Developer+🚀;Python+Enthusiast+🐍;ALX+ProDev+Learner+📚" alt="Typing SVG" /> </h1> <h3 align="center">🚀 Backend Developer | Python/Django Engineer | python/FastAPI | HNG Intern | ProDev </h3> <p align="center"> <img src="https://komarev.com/ghpvc/?username=gerardugwu&label=Profile%20views&color=0e75b6&style=flat" alt="gerardugwu" /> 
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=gerardugwu&label=Profile%20views&color=0e75b6&style=flat" alt="gerardugwu" />
-</p>
 
 ---
 <p align="center">
@@ -41,60 +37,38 @@
 
 </div>
 ---
-🚀 HNG Internship: Stage Projects & Achievements
-
-Below are all HNG tasks completed, written professionally and ready for CV/LinkedIn.
-
-🔵 STAGE 0 — Dynamic Profile API
-
-🔗 https://github.com/Deglobeal/dynamic_Profile
-
-Built a dynamic profile endpoint that returns name, role, skills, and metadata.
-Skills: JSON Structuring ⭐⭐⭐⭐☆
-
-🟢 STAGE 1 — String Analyzer Microservice
-
-🔗 https://github.com/Deglobeal/String_analyzer_service
-
-A FastAPI microservice performing string analysis, palindrome checks & statistics.
-Skills: Algorithmic Logic ⭐⭐⭐⭐⭐ • Docker ⭐⭐⭐☆☆
-
-🟡 STAGE 2 — Country Data API
-
-🔗 https://github.com/Deglobeal/country_api
-
-REST API providing detailed country info, population, and regional metadata.
-Skills: API Structuring ⭐⭐⭐⭐☆
-
-🟠 STAGE 3 — Telex Agent Service
-
-🔗 https://github.com/Deglobeal/telex_agent
-
-Automated message-processing agent for Telex communication service.
-Skills: Microservices ⭐⭐⭐⭐⭐ • Event Handling ⭐⭐⭐⭐☆
-
-🔴 STAGE 4 — Email Service (Background Job System)
-
-🔗 https://github.com/Deglobeal/email_services
-
-One-Sentence Professional Summary:
-
-Built a scalable distributed email-notification microservice powered by FastAPI, Celery, and Redis, enabling reliable async delivery with automated retries, circuit-breaker logic, structured logs, and full Docker orchestration.
-
-Skills:
-
-Background Task Processing ⭐⭐⭐⭐⭐
-
-Celery Queue Management ⭐⭐⭐⭐⭐
-
-SMTP Automation ⭐⭐⭐⭐☆
-
-Retry + Logging Architecture ⭐⭐⭐⭐☆
----
 
 ### 🔭 Featured Projects
 
 <table>
+  <tr>
+    <td><strong>🏠String Analyzer Microservice</strong></td>
+    <td><strong>🔗 <a href="https://github.com/Deglobeal/String_analyzer_service">GitHub Repo</a></strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">A FastAPI microservice performing string analysis, palindrome checks & statistics.</td>
+  </tr>
+  <tr>
+    <td><strong>🏠 Country Data API</strong></td>
+    <td><strong>🔗 <a href="https://github.com/Deglobeal/country_api">GitHub Repo</a></strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">REST API providing detailed country info, population, and regional metadata.</td>
+  </tr>
+  <tr>
+    <td><strong>🏠 Telex Agent Service</strong></td>
+    <td><strong>🔗 <a href="https://github.com/Deglobeal/telex_agent">GitHub Repo</a></strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">Automated message-processing agent for Telex communication service.</td>
+  </tr>
+  <tr>
+    <td><strong>🏠 Email Service (Background Email System)</strong></td>
+    <td><strong>🔗 <a href="https://github.com/Deglobeal/email_services">GitHub Repo</a></strong></td>
+  </tr>
+  <tr>
+    <td colspan="2">Built a scalable distributed email-notification microservice powered by FastAPI, Celery, and Redis, enabling reliable async delivery with automated retries, circuit-breaker logic, structured logs, and full Docker orchestration.</td>
+  </tr>
   <tr>
     <td><strong>🏠 Airbnb Clone</strong></td>
     <td><strong>🔗 <a href="https://github.com/Deglobeal/airbnb-clone-project">GitHub Repo</a></strong></td>
