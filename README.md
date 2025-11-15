@@ -28,8 +28,7 @@
 
 ### 🛠️ Tech Stack
 
-<p align="center"> <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=fff"/> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/> <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/> </p>
-
+<p align="center"> <img src="https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=fff"/> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/DRF-FF1709?style=for-the-badge&logo=django&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/> <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white"/> <img src="https://img.shields.io/badge/Redis-D92C2C?style=for-the-badge&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white"/> </p>
 ---
 
 <div style="background-color: #f3f4f6; padding: 20px; border-radius: 10px">
@@ -43,7 +42,56 @@
 </ul>
 
 </div>
+---
+🚀 HNG Internship: Stage Projects & Achievements
 
+Below are all HNG tasks completed, written professionally and ready for CV/LinkedIn.
+
+🔵 STAGE 0 — Dynamic Profile API
+
+🔗 https://github.com/Deglobeal/dynamic_Profile
+
+Built a dynamic profile endpoint that returns name, role, skills, and metadata.
+Skills: JSON Structuring ⭐⭐⭐⭐☆
+
+🟢 STAGE 1 — String Analyzer Microservice
+
+🔗 https://github.com/Deglobeal/String_analyzer_service
+
+A FastAPI microservice performing string analysis, palindrome checks & statistics.
+Skills: Algorithmic Logic ⭐⭐⭐⭐⭐ • Docker ⭐⭐⭐☆☆
+
+🟡 STAGE 2 — Country Data API
+
+🔗 https://github.com/Deglobeal/country_api
+
+REST API providing detailed country info, population, and regional metadata.
+Skills: API Structuring ⭐⭐⭐⭐☆
+
+🟠 STAGE 3 — Telex Agent Service
+
+🔗 https://github.com/Deglobeal/telex_agent
+
+Automated message-processing agent for Telex communication service.
+Skills: Microservices ⭐⭐⭐⭐⭐ • Event Handling ⭐⭐⭐⭐☆
+
+🔴 STAGE 4 — Email Service (Background Job System)
+
+🔗 https://github.com/Deglobeal/email_services
+
+One-Sentence Professional Summary:
+
+Built a scalable distributed email-notification microservice powered by FastAPI, Celery, and Redis, enabling reliable async delivery with automated retries, circuit-breaker logic, structured logs, and full Docker orchestration.
+
+Skills:
+
+Background Task Processing ⭐⭐⭐⭐⭐
+
+Celery Queue Management ⭐⭐⭐⭐⭐
+
+SMTP Automation ⭐⭐⭐⭐☆
+
+Retry + Logging Architecture ⭐⭐⭐⭐☆
 ---
 
 ### 🔭 Featured Projects
