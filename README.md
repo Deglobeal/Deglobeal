@@ -1,6 +1,4 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2800&pause=1000&color=1DA1F2&center=true&vCenter=true&width=800&lines=Hello+World+👋;I'm+Gerard+Ugwu+Onyedikachi;Backend+Developer+🚀;Python+Enthusiast+🐍;ALX+ProDev+Learner+📚" alt="Typing SVG" />
-</h1>
+<h1 align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=2800&pause=1000&color=1DA1F2&center=true&vCenter=true&width=800&lines=Hello+World+👋;I'm+Gerard+Ugwu+Onyedikachi;Backend+Developer+🚀;Python+Enthusiast+🐍;ALX+ProDev+Learner+📚" alt="Typing SVG" /> </h1> <h3 align="center">🚀 Backend Developer | Python/Django Engineer | HNG Intern | ALX ProDev Learner</h3> <p align="center"> <img src="https://komarev.com/ghpvc/?username=gerardugwu&label=Profile%20views&color=0e75b6&style=flat" alt="gerardugwu" /> </p>
 <h3 align="center">🚀 Backend Developer | Python Enthusiast | ALX ProDev Learner</h3>
 
 <p align="center">
